@@ -11,6 +11,7 @@ The frontend and backend are included in the same solution. You can simply open 
 The application consists of two projects. pricetracker.client contains the frontend part of the solution. PriceTracker.Server contains the backend part of the solution. 
 
 ## Implementation Details - Backend 
+Default url for the backend: https://localhost:7238/
 There are 3 important classes:
 
 ### Stock
@@ -23,6 +24,7 @@ This is SignalR hub class.
 This is a singleton class that holds the stock list and updates the prices randomly (in the range of 101-200) every second.
 
 ## Implementation Details - Frontend
+Default url for the frontend: https://localhost:5173/
 There are 3 important files:
 ### stock-model.ts
 Similar to the backend, this is a model class to hold the stock information
